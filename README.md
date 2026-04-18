@@ -1,6 +1,6 @@
-# NexaMind AI — Brand Website
+# Zynapse AI — Brand Website
 
-A modern, responsive brand website for **NexaMind AI**, an AI automation agency that provides intelligent business solutions.
+A modern, responsive brand website for **Zynapse AI**, an AI automation agency that provides intelligent business solutions.
 
 ## 🚀 Features
 

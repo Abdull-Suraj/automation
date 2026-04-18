@@ -1,5 +1,5 @@
 /* ============================================
-   NexaMind AI — Main JavaScript
+   Zynapse AI — Main JavaScript
    Navbar, animations, and interactions
    ============================================ */
 
