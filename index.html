@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexaMind AI — Intelligent Automation for Modern Business</title>
+    <meta name="description" content="NexaMind AI empowers businesses with cutting-edge AI automation, chatbots, workflow optimization, and data analytics solutions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+</head>
+<body>
+    <!-- Navbar (Island Style) -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-island">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="14" cy="14" r="12" stroke="url(#logoGrad)" stroke-width="2.5"/>
+                        <circle cx="14" cy="14" r="5" fill="url(#logoGrad)"/>
+                        <line x1="14" y1="2" x2="14" y2="8" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="14" y1="20" x2="14" y2="26" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="2" y1="14" x2="8" y2="14" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="20" y1="14" x2="26" y2="14" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round"/>
+                        <defs>
+                            <linearGradient id="logoGrad" x1="0" y1="0" x2="28" y2="28">
+                                <stop offset="0%" stop-color="#6C63FF"/>
+                                <stop offset="100%" stop-color="#00D4AA"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span class="logo-text">NexaMind</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#benefits">Why Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+            <a href="#contact" class="nav-cta">Get Started</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#benefits">Why Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact" class="mobile-cta">Get Started</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-effects">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge" data-animate="fade-up">
+                <span class="badge-dot"></span>
+                AI-Powered Business Solutions
+            </div>
+            <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                Transform Your Business<br>
+                With <span class="gradient-text">Intelligent Automation</span>
+            </h1>
+            <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+                We help businesses harness the power of artificial intelligence to automate workflows,
+                enhance customer experiences, and unlock data-driven growth.
+            </p>
+            <div class="hero-actions" data-animate="fade-up" data-delay="300">
+                <a href="#contact" class="btn btn-primary">
+                    Book a Free Consultation
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.167 10h11.666M10.833 5l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#services" class="btn btn-secondary">
+                    Explore Our Services
+                </a>
+            </div>
+            <div class="hero-stats" data-animate="fade-up" data-delay="400">
+                <div class="stat">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">95%</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">40%</span>
+                    <span class="stat-label">Avg. Cost Savings</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By -->
+    <section class="trusted-by">
+        <div class="container">
+            <p class="trusted-label">Trusted by innovative companies worldwide</p>
+            <div class="logo-scroll">
+                <div class="logo-track">
+                    <span class="client-logo">TechVault</span>
+                    <span class="client-logo">Meridian</span>
+                    <span class="client-logo">CloudSync</span>
+                    <span class="client-logo">DataFlow</span>
+                    <span class="client-logo">NovaPeak</span>
+                    <span class="client-logo">Axiom Labs</span>
+                    <span class="client-logo">TechVault</span>
+                    <span class="client-logo">Meridian</span>
+                    <span class="client-logo">CloudSync</span>
+                    <span class="client-logo">DataFlow</span>
+                    <span class="client-logo">NovaPeak</span>
+                    <span class="client-logo">Axiom Labs</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">AI Solutions That <span class="gradient-text">Drive Results</span></h2>
+                <p class="section-desc">From intelligent chatbots to full-scale workflow automation, we deliver tailored AI solutions that transform how your business operates.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fade-up" data-delay="0">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 4C9.373 4 4 9.373 4 16s5.373 12 12 12 12-5.373 12-12S22.627 4 16 4z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 14c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2v6c0 1.1-.9 2-2 2h-4c-1.1 0-2-.9-2-2v-6z" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="14" cy="17" r="1" fill="currentColor"/>
+                            <circle cx="18" cy="17" r="1" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">AI Chatbots & Virtual Assistants</h3>
+                    <p class="service-desc">Deploy intelligent conversational AI that handles customer queries 24/7, qualifies leads, and provides instant support — reducing response times by up to 80%.</p>
+                    <ul class="service-features">
+                        <li>Natural language understanding</li>
+                        <li>Multi-channel deployment</li>
+                        <li>Seamless CRM integration</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 8h20M6 16h20M6 24h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M22 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10 20l-4 4 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Workflow Automation</h3>
+                    <p class="service-desc">Streamline repetitive tasks and complex business processes with AI-driven automation. Free your team to focus on what truly matters — strategy and growth.</p>
+                    <ul class="service-features">
+                        <li>End-to-end process mapping</li>
+                        <li>Smart task routing</li>
+                        <li>Real-time monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="6" width="24" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8 22l5-6 4 3 6-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="23" cy="11" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Data Analytics & Insights</h3>
+                    <p class="service-desc">Turn raw data into actionable intelligence. Our AI analytics platforms uncover hidden patterns, predict trends, and empower smarter decision-making.</p>
+                    <ul class="service-features">
+                        <li>Predictive analytics</li>
+                        <li>Custom dashboards</li>
+                        <li>Automated reporting</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-animate="fade-up" data-delay="300">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 4v4M16 24v4M4 16h4M24 16h4M7.5 7.5l2.8 2.8M21.7 21.7l2.8 2.8M7.5 24.5l2.8-2.8M21.7 10.3l2.8-2.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="16" cy="16" r="6" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">AI Content Generation</h3>
+                    <p class="service-desc">Produce high-quality marketing copy, product descriptions, social media posts, and email campaigns at scale — powered by advanced language models.</p>
+                    <ul class="service-features">
+                        <li>Brand voice consistency</li>
+                        <li>SEO-optimized content</li>
+                        <li>Multi-format output</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-animate="fade-up" data-delay="400">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H8z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 16l3 3 5-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Intelligent Document Processing</h3>
+                    <p class="service-desc">Automate document extraction, classification, and processing with AI. From invoices to contracts, eliminate manual data entry and reduce errors by 95%.</p>
+                    <ul class="service-features">
+                        <li>OCR & data extraction</li>
+                        <li>Smart classification</li>
+                        <li>Compliance automation</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-animate="fade-up" data-delay="500">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 4l2.5 6.5H26l-5.5 4.5 2 7L16 18l-6.5 4 2-7L6 10.5h7.5L16 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Custom AI Solutions</h3>
+                    <p class="service-desc">Need something unique? We design and build bespoke AI systems tailored to your specific industry challenges, from recommendation engines to predictive models.</p>
+                    <ul class="service-features">
+                        <li>Tailored AI models</li>
+                        <li>Industry-specific solutions</li>
+                        <li>Full lifecycle support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Process</span>
+                <h2 class="section-title">From Idea to <span class="gradient-text">Implementation</span></h2>
+                <p class="section-desc">A proven 4-step methodology that ensures every AI solution we deliver is strategically aligned, technically sound, and measurably impactful.</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step" data-animate="fade-up" data-delay="0">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Discovery & Strategy</h3>
+                        <p>We analyze your business processes, identify automation opportunities, and create a strategic roadmap aligned with your goals.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-animate="fade-up" data-delay="150">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Design & Prototype</h3>
+                        <p>Our team designs the AI solution architecture, creates prototypes, and validates the approach with real data before full development.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-animate="fade-up" data-delay="300">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Build & Integrate</h3>
+                        <p>We develop, test, and seamlessly integrate the AI solution into your existing tech stack with minimal disruption to operations.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-animate="fade-up" data-delay="450">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Optimize & Scale</h3>
+                        <p>Continuous monitoring, performance optimization, and scaling ensures your AI solution evolves with your business needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="benefits-layout">
+                <div class="benefits-content" data-animate="fade-up">
+                    <span class="section-tag">Why NexaMind</span>
+                    <h2 class="section-title">The Smarter Way to <span class="gradient-text">Grow Your Business</span></h2>
+                    <p class="section-desc">We don't just implement AI — we become your strategic technology partner, committed to delivering measurable business outcomes.</p>
+                </div>
+                <div class="benefits-grid">
+                    <div class="benefit-card" data-animate="fade-up" data-delay="0">
+                        <div class="benefit-icon">⚡</div>
+                        <h4>Rapid Deployment</h4>
+                        <p>Go from concept to live AI solution in weeks, not months. Our agile approach accelerates time-to-value.</p>
+                    </div>
+                    <div class="benefit-card" data-animate="fade-up" data-delay="100">
+                        <div class="benefit-icon">🎯</div>
+                        <h4>ROI-Focused</h4>
+                        <p>Every solution is designed with clear KPIs and measurable outcomes. We track and report your return on investment.</p>
+                    </div>
+                    <div class="benefit-card" data-animate="fade-up" data-delay="200">
+                        <div class="benefit-icon">🔒</div>
+                        <h4>Enterprise-Grade Security</h4>
+                        <p>Built with security-first architecture. Your data is protected with industry-leading encryption and compliance standards.</p>
+                    </div>
+                    <div class="benefit-card" data-animate="fade-up" data-delay="300">
+                        <div class="benefit-icon">🔄</div>
+                        <h4>Seamless Integration</h4>
+                        <p>Our solutions integrate with your existing tools — CRM, ERP, communication platforms, and more — without disruption.</p>
+                    </div>
+                    <div class="benefit-card" data-animate="fade-up" data-delay="400">
+                        <div class="benefit-icon">📊</div>
+                        <h4>Data-Driven Decisions</h4>
+                        <p>Unlock actionable insights from your data with AI-powered analytics that drive smarter business decisions.</p>
+                    </div>
+                    <div class="benefit-card" data-animate="fade-up" data-delay="500">
+                        <div class="benefit-icon">🤝</div>
+                        <h4>Dedicated Support</h4>
+                        <p>Get a dedicated team that understands your business, provides ongoing support, and ensures long-term success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our <span class="gradient-text">Clients Say</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-animate="fade-up" data-delay="0">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"NexaMind transformed our customer service with an AI chatbot that handles 70% of inquiries automatically. Our team can now focus on complex issues while response times dropped from hours to seconds."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div>
+                            <strong>Sarah Mitchell</strong>
+                            <span>COO, TechVault Inc.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-animate="fade-up" data-delay="150">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The workflow automation solution saved us 120+ hours per month on manual data entry. The ROI was visible within the first quarter. Incredible team and flawless execution."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JC</div>
+                        <div>
+                            <strong>James Chen</strong>
+                            <span>Director of Operations, Meridian Group</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-animate="fade-up" data-delay="300">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Their AI analytics platform gave us insights we didn't know existed in our data. Revenue predictions are now 93% accurate, helping us make better strategic decisions."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LP</div>
+                        <div>
+                            <strong>Laura Park</strong>
+                            <span>CEO, DataFlow Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-card" data-animate="fade-up">
+                <div class="cta-bg-effects">
+                    <div class="cta-orb cta-orb-1"></div>
+                    <div class="cta-orb cta-orb-2"></div>
+                </div>
+                <h2 class="cta-title">Ready to Automate Your Business?</h2>
+                <p class="cta-desc">Book a free 30-minute strategy call. We'll analyze your business processes and show you exactly how AI can save you time, money, and unlock new growth opportunities.</p>
+                <form class="cta-form" id="ctaForm">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" class="form-input" required>
+                        <input type="email" placeholder="Work Email" class="form-input" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Company Name" class="form-input">
+                        <select class="form-input form-select">
+                            <option value="" disabled selected>What interests you?</option>
+                            <option>AI Chatbots</option>
+                            <option>Workflow Automation</option>
+                            <option>Data Analytics</option>
+                            <option>Content Generation</option>
+                            <option>Document Processing</option>
+                            <option>Custom AI Solution</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Book Free Consultation
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.167 10h11.666M10.833 5l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-icon">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="12" stroke="url(#logoGrad2)" stroke-width="2.5"/>
+                                <circle cx="14" cy="14" r="5" fill="url(#logoGrad2)"/>
+                                <line x1="14" y1="2" x2="14" y2="8" stroke="url(#logoGrad2)" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="14" y1="20" x2="14" y2="26" stroke="url(#logoGrad2)" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="2" y1="14" x2="8" y2="14" stroke="url(#logoGrad2)" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="20" y1="14" x2="26" y2="14" stroke="url(#logoGrad2)" stroke-width="2" stroke-linecap="round"/>
+                                <defs>
+                                    <linearGradient id="logoGrad2" x1="0" y1="0" x2="28" y2="28">
+                                        <stop offset="0%" stop-color="#6C63FF"/>
+                                        <stop offset="100%" stop-color="#00D4AA"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </span>
+                        <span class="logo-text">NexaMind</span>
+                    </a>
+                    <p class="footer-tagline">Empowering businesses with intelligent AI automation solutions that drive real results.</p>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">AI Chatbots</a></li>
+                        <li><a href="#services">Workflow Automation</a></li>
+                        <li><a href="#services">Data Analytics</a></li>
+                        <li><a href="#services">Content Generation</a></li>
+                        <li><a href="#services">Custom Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#benefits">About Us</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                        <li><a href="#testimonials">Case Studies</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter / X</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">hello@nexamind.ai</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NexaMind AI. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
